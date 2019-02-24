@@ -8,6 +8,7 @@ defmodule ElixirLegacy.Application do
   def start(_type, _args) do
     # List all child processes to be supervised
     children = [
+      {ElixirLegacy.Repo, []}
       # Starts a worker by calling: ElixirLegacy.Worker.start_link(arg)
       # {ElixirLegacy.Worker, arg}
     ]
