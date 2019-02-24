@@ -1,21 +1,5 @@
-# ElixirLegacy
+# Eine Legacy Datenbank mit Elixir ansprechen
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `elixir_legacy` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:elixir_legacy, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/elixir_legacy](https://hexdocs.pm/elixir_legacy).
-
+Ziel dieses Projektes ist es, eine Legacy-Datenbank mit Elixir anzusprechen.
+Dabei wird der erste Versuch einen Postgres-Datenbank zum Ziel haben - der
+zweite Versuch wird eine MySQL-Datenbank zum Ziel haben.
